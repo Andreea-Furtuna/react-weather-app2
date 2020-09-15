@@ -23,9 +23,9 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-4">
           <span className="temperature">
-            <strong>{Math.round(props.data.temperature)}</strong>
+            <strong>{Math.round(props.data.temperature)}°</strong>
           </span>
-          <span className="unit">°C |°F</span>
+          <span className="unit">C | F</span>
         </div>
       </div>
       <div className="row">
