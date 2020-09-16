@@ -47,7 +47,7 @@
   margin-top: 10px;
 }
 
-.Weather img {
+.Weather canvas {
   height: 64px;
   float: right;
   display: inline-block;
@@ -57,6 +57,6 @@
 
 .Weather .temperature {
   font-size: 55px;
-  margin-left: 10px;
+  margin-left: 0;
   padding-top: 20px;
 }
